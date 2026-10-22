@@ -1,0 +1,20 @@
+generated: '2026-10-22'
+method: none
+source:
+- https://zapier.com/apps/kastle-ai/integrations
+- https://zapier.com/apps/kastle/integrations
+- https://n8n.io/integrations/kastle-ai/
+- https://n8n.io/integrations/kastle/
+- https://composio.dev/toolkits/kastle-ai
+- https://monid.ai/tools/kastle-ai
+checked:
+- https://composio.dev/toolkits/kastle-ai
+- https://monid.ai/tools/kastle-ai
+- https://n8n.io/integrations/kastle-ai/
+- https://n8n.io/integrations/kastle/
+- https://zapier.com/apps/kastle-ai/integrations
+- https://zapier.com/apps/kastle/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

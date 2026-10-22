@@ -1,25 +1,62 @@
 aid: kastle-ai
+
 name: Kastle AI
-description: 'Kastle AI is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio;
-  backed by fifth-wall) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://framerusercontent.com/images/nWHdKftAnklKiPSskgcJquexg.png
+
+description: 'Kastle AI provides an AI‑driven platform that automates the full loan lifecycle, keeping originations, fulfillment, and servicing moving 24/7. Built for regulated financial work, it connects to existing banking and loan systems, offering agents that handle tasks from application intake to post‑closing management, improving efficiency and compliance across the loan process.'
+
 url: https://raw.githubusercontent.com/api-evangelist/kastle-ai/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:vc-portfolio
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-22'
+
 modified: '2026-10-22'
+
 tags:
-- Company
-apis: []
+- AI
+- FinTech
+- Loan
+- Automation
+- Platform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
-x-backed-by:
-- fifth-wall
+
 common:
+- type: WellKnown
+  url: well-known/kastle-ai-well-known.yml
+- type: Hosts
+  url: hosts/kastle-ai-hosts.yml
+- type: Vendors
+  url: vendors/kastle-ai-vendors.yml
+- type: Blog
+  url: https://blog.kastle.ai/
+- type: DomainSecurity
+  url: security/kastle-ai-domain-security.yml
 - type: Website
   url: https://kastle.ai
+- type: Documentation
+  url: https://docs.kastle.ai
+
+apis: []
+
+x-backed-by:
+- fifth-wall
+x-enrichment:
+  date: '2026-10-22'
+  status: enriched
+  artifacts_added: 9
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local
